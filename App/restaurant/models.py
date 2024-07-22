@@ -10,6 +10,6 @@ class Booking_table(models.Model):
 class Menu_table(models.Model):
     title = models.CharField(max_length=225)
     price = models.DecimalField(max_digits=10, decimal_places=2,default=0)
-    Inventory = models.IntegerField(default=0)              # Changed 'Inventory' to 'inventory' for consistency
+    Inventory = models.IntegerField(default=0)
 
 
